@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-name 'BuongiornoDEV_DROGHE'
+name 'BuongiornoDEV_LAVORINOWL'
 
 author 'BuongiornoDEV'
 
@@ -13,10 +13,10 @@ shared_script '@ox_lib/init.lua'
 
 server_scripts {
     'Config.lua',
-    'Server/**.lua',
+    'server.lua',
 }
 
 client_scripts {
     'Config.lua',
-    'Client/**.lua',
+    'client.lua',
 }
